@@ -10,6 +10,7 @@
 </head>
 <body>
 <h1><fmt:message key="priceincrease.heading"/></h1>
+<%--@elvariable id="priceIncrease" type=""--%>
 <form:form method="post" modelAttribute="priceIncrease">
     <table >
         <tr>
